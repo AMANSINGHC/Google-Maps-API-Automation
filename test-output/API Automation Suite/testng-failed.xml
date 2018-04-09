@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [API Automation Suite]">
+  <test thread-count="5" name="Add Location on Google Maps(failed)">
+    <classes>
+      <class name="api.GoogleMapsDeleteLocationAPI">
+        <methods>
+          <include name="deleteLocationFromMap"/>
+          <include name="defaultSetup"/>
+          <include name="setupEndPoint"/>
+        </methods>
+      </class> <!-- api.GoogleMapsDeleteLocationAPI -->
+    </classes>
+  </test> <!-- Add Location on Google Maps(failed) -->
+</suite> <!-- Failed suite [API Automation Suite] -->
